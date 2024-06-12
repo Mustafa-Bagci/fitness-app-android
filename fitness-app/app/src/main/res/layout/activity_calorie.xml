@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    tools:context=".CalorieActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Daily Calorie Target"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/calorieInput"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:hint="Enter Calorie..."
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/contour_edit_text"
+        android:inputType="numberDecimal"
+        android:textColorHint="#7E000000"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calorieInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="OK"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"/>
+
+</RelativeLayout>

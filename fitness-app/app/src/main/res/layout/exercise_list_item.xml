@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/contour_edit_text">
+
+        <ImageView
+            android:id="@+id/imageViewExercise"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/exercise1" />
+
+
+        <TextView
+            android:id="@+id/textTitleExercise"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="110dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/textDescriptionExercise"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="110dp"
+            android:textSize="16sp"
+            android:textColor="#81000000"/>
+
+    </FrameLayout>
+
+</LinearLayout>

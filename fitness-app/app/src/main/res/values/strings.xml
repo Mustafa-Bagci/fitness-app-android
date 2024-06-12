@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fit Life</string>
+    <string name="calorie_goal">Your Calorie Goal: %s</string>
+    <string name="calorie_goal_with_remaining">Your Calorie Goal: %1$s | Remaining Calories: %2$s</string>
+    <string name="enter_valid_calorie">Please enter a valid calorie value.</string>
+    <string name="calorie_goal_saved">Calorie goal saved successfully!</string>
+</resources>
+

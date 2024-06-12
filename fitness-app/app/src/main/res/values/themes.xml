@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.FitLife" parent="Theme.Material3.Light">
+        <item name="android:fontFamily">@font/acme_regular</item>
+        <item name="android:statusBarColor">#989898</item>
+    </style>
+
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#A5A5A5</item>
+    </style>
+
+
+
+    <style name="Theme.FitLife" parent="Base.Theme.FitLife" />
+</resources>
